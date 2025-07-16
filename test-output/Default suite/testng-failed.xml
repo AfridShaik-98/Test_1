@@ -5,8 +5,8 @@
     <classes>
       <class name="day4.tests.Start">
         <methods>
+          <include name="testScript3"/>
           <include name="teardown"/>
-          <include name="testScript2"/>
           <include name="launch"/>
         </methods>
       </class> <!-- day4.tests.Start -->
