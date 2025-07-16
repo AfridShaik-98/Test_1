@@ -27,7 +27,7 @@ public class Start extends BaseTest {
 		obj.passwordTextField("secret_sauce");
 		obj.LoginButton();
 		Thread.sleep(5000);
-		String expectedUrl = "https://www.saucedemo.com/v1/inventory.html";
+		String expectedUrl = "https://www.saucedemo.com/v1/";
 		String actualURL = driver.getCurrentUrl();
 		Assert.assertEquals(actualURL, expectedUrl, "Login failed!");
 
@@ -40,7 +40,7 @@ public class Start extends BaseTest {
 		obj.passwordTextField("secret_saue");
 		obj.LoginButton();
 		Thread.sleep(5000);
-		String expectedUrl = "https://www.saucedemo.com/v1/inventory.html";
+		String expectedUrl = "https://www.saucedemo.com/v1/";
 		String actualURL = driver.getCurrentUrl();
 		Assert.assertEquals(actualURL, expectedUrl, "Login failed!");
 
